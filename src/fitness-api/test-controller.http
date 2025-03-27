@@ -1,0 +1,51 @@
+### Environment variables
+@baseUrl = http://localhost:5000
+@httpsUrl = https://localhost:5001
+
+### GET all students
+GET {{baseUrl}}/api/Students
+Accept: application/json
+
+### GET student by ID (replace 1 with the actual student ID)
+GET {{baseUrl}}/api/Students/1
+Accept: application/json
+
+### GET all exercises
+GET {{baseUrl}}/api/exercises
+Accept: application/json
+
+### POST create new exercise
+POST {{baseUrl}}/api/exercises
+Content-Type: application/json
+
+{
+  "studentId": 1,
+  "date": "{{$datetime iso8601}}",
+  "duration": 45,
+  "comments": "Running test from REST Client"
+}
+
+### Using HTTPS endpoints
+
+### GET all students (HTTPS)
+GET {{httpsUrl}}/api/Students
+Accept: application/json
+
+### GET student by ID (HTTPS)
+GET {{httpsUrl}}/api/Students/2
+Accept: application/json
+
+### GET all exercises (HTTPS)
+GET {{httpsUrl}}/api/exercises
+Accept: application/json
+
+### POST create new exercise (HTTPS)
+POST {{httpsUrl}}/api/exercises
+Content-Type: application/json
+
+{
+  "studentId": 2,
+  "date": "{{$datetime iso8601}}",
+  "duration": 60,
+  "comments": "Swimming test from REST Client"
+}

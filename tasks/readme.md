@@ -1,8 +1,7 @@
 # Tasklist
 
-- [ ] **Task 1**: Project Setup
-- [ ] **Task 2**: Create a devcontainer.json file in the root of the project.
-- [ ] **Task 3**: Create the base pages.
+- [ ] **Task 1**: Project Setup including a devcontainer.json
+- [ ] **Task 2**: Configure the Web Api
 
 # Task 1: Project Setup
 
@@ -46,3 +45,50 @@ to finalize the initial setup create a devcontainer.json that is capable of runn
 ```
 
 - Run the devcontainer locally and using GitHub CodeSpaces
+
+# Task 2: Configure the Web Api
+
+```prompt
+Set the http port to 5000 and the https port to 5001 in the launchSettings.json file. Make sure to set the environment variable ASPNETCORE_ENVIRONMENT to Development.
+```
+
+```prompt
+Add support for entity framework and Sqlite. Create a FitnessDBContext and register it in Program.cs
+```
+
+```prompt
+Next lets create a model for the fitness app:
+
+Lets add a Student model with the following properties:
+
+- Id (int, primary key)
+- FirstName (string, required)
+- LastName (string, required)
+- DateOfBirth (DateTime, required)
+
+Lets add an Exercise model with the following properties:
+
+- Id (int, primary key)
+- StudentId (int, foreign key to Student)
+- Date (DateTime, required)
+- Duration (int, required, in minutes)
+- Comments (string, optional)
+
+Register the models in the FitnessDBContext. Seed it with 3 sample students and 3 sample exercises for each student.
+```
+
+```prompt
+Add an ExerciseController to the fitness-api project. The controller should have the following endpoints:
+
+- Get /Students: Get all students
+- GET /Students/{id}: Get a student by id
+- GET /api/exercises: Get all exercises
+- POST /api/exercises: Create a new exercise
+
+Register the Controller in Program.cs to ensure it is available for dependency injection and routing. Inject the FitnessDBContext into the controller.
+Make sure a Swagger UI is available for the API. In the Development environment the Swagger UI should be available at /.
+```
+
+```prompt
+Add a REST Client test-controller.http to test the different methods of the controller
+```

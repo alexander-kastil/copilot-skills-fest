@@ -5,7 +5,7 @@
 - [ ] **Task 3**: Implement the Angular App
 - [ ] **Task 4**: Add project documentation
 
-The Tasks were executed by the GutHub Copilot Agent mostly using Cloude Sonnet 3.7
+The Tasks were executed by the GutHub Copilot Agent mostly using Claude Sonnet 3.7
 
 # Task 1: Project Setup
 

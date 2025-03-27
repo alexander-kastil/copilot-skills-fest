@@ -95,3 +95,18 @@ Add a REST Client test-controller.http to test the different methods of the cont
 ```
 
 ## Task 3: Configure the Angular App
+
+- Add Angular Copilot instructions to project specific settings
+
+- Create the base app
+
+```prompt
+Add the following components to the Angular app:
+
+- Home
+- Students
+- Exercises
+- Shared/Navbar
+
+Add the links to the Navbar and the routing to the app.routing.ts. Add a router-outlet to the app.component.html.
+```

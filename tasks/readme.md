@@ -1,8 +1,8 @@
 # Tasklist
 
 - [ ] **Task 1**: Project Setup including a devcontainer.json
-- [ ] **Task 2**: Configure the Web Api
-- [ ] **Task 3**: Configure the Angular App
+- [ ] **Task 2**: Implement the Web Api
+- [ ] **Task 3**: Implement the Angular App
 - [ ] **Task 4**: Add project documentation
 
 # Task 1: Project Setup
@@ -139,4 +139,8 @@ still no output so please add terminal logging to the students component so you 
 
 - Create docs using a saved prompt
 
-  ![prompt](/tasks/assets/general/docs.jpg)
+![prompt](/tasks/assets/general/docs.jpg)
+
+- Use prompt
+
+![prompt](/tasks/assets/general/use-prompt.jpg)

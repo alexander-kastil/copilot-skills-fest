@@ -1,6 +1,6 @@
 # Fitness App
 
-This repository a guide to vibe coding for fitness application containing a [task list](tasks/readme.md) to full fill the [goals](goal/readme.md) of the [Microsoft Skill Fest](https://aiskillsfest.event.microsoft.com/)
+This repository a guide to Vibe Coding using GitHub Copilot for a fitness application. It contains a [task list](tasks/readme.md) to full fill the [goals](goal/readme.md) of the [Microsoft Skill Fest](https://aiskillsfest.event.microsoft.com/)
 
 ## Project Overview
 

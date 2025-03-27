@@ -13,6 +13,17 @@ builder.Services.AddOpenApi();
 builder.Services.AddDbContext<FitnessDBContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Add CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 // Add controllers with JSON serialization settings
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -48,6 +59,9 @@ if (app.Environment.IsDevelopment())
     });
     app.MapOpenApi();
 }
+
+// Use CORS policy
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 

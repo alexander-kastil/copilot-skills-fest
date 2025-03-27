@@ -1,12 +1,12 @@
 # Fitness App
 
-![app](/tasks/assets/general/app.jpg)
-
 This repository a guide to vibe coding for fitness application containing a [task list](tasks/readme.md) to full fill the [goals](goal/readme.md) of the [Microsoft Skill Fest](https://aiskillsfest.event.microsoft.com/)
 
 ## Project Overview
 
 The Fitness App is a comprehensive solution for managing students and their exercise routines. It consists of a .NET 9 Web API backend and an Angular 19 frontend, providing a seamless experience for users.
+
+![app](/tasks/assets/general/app.jpg)
 
 ### Project Purpose and Objectives
 

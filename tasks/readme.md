@@ -135,7 +135,7 @@ there are no students displayed on the page. data is returned. Angular Dev Tools
 still no output so please add terminal logging to the students component so you can examine it and fix the error
 ```
 
-Task 4: Add project documentation
+## Task 4: Add project documentation
 
 - Create docs using a saved prompt
 

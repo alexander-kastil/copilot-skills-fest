@@ -49,14 +49,12 @@ The Fitness App is a comprehensive solution for managing students and their exer
 - Node.js 20.12.2 or higher
 - Angular CLI 19
 - .NET 9 SDK
-- SQLite
 
 ### Development Setup Instructions
 
 1. Clone the repository.
 2. Navigate to the `src/fitness-api` directory and run `dotnet run` to start the backend.
-3. Navigate to the `src/fitenss-ui` directory and run `ng serve` to start the frontend.
-4. Open your browser and navigate to `http://localhost:4200/` to access the application.
+3. Navigate to the `src/fitenss-ui` directory and run `ng serve -o` to start the frontend.
 
 ## Contributing
 

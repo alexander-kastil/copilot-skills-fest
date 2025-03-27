@@ -2,6 +2,7 @@
 
 - [ ] **Task 1**: Project Setup including a devcontainer.json
 - [ ] **Task 2**: Configure the Web Api
+- [ ] **Task 3**: Configure the Angular App
 
 # Task 1: Project Setup
 
@@ -92,3 +93,5 @@ Make sure a Swagger UI is available for the API. In the Development environment 
 ```prompt
 Add a REST Client test-controller.http to test the different methods of the controller
 ```
+
+## Task 3: Configure the Angular App

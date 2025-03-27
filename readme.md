@@ -47,7 +47,7 @@ The Fitness App is a comprehensive solution for managing students and their exer
 ### Prerequisites
 
 - Node.js 20.12.2 or higher
-- Angular CLI
+- Angular CLI 19
 - .NET 9 SDK
 - SQLite
 

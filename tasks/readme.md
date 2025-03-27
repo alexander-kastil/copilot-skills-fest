@@ -3,6 +3,7 @@
 - [ ] **Task 1**: Project Setup including a devcontainer.json
 - [ ] **Task 2**: Configure the Web Api
 - [ ] **Task 3**: Configure the Angular App
+- [ ] **Task 4**: Add project documentation
 
 # Task 1: Project Setup
 
@@ -108,5 +109,30 @@ Add the following components to the Angular app:
 - Exercises
 - Shared/Navbar
 
-Add the links to the Navbar and the routing to the app.routing.ts. Add a router-outlet to the app.component.html.
+Add the links to the Navbar and the routing to the app.routing.ts.
+Add a router-outlet to the app.component.html. The Navbar should have 100px. The container for the router-outlet should fit the rest of the screen
 ```
+
+- Add a service to the Angular app that uses the HttpClient to call the API.
+
+```prompt
+Add a students service to the Angular app that uses the HttpClient to call the API. Register the HttpClient in app.config.ts using the provide function. Implement the methods getStudent and getStudents. Create client side model classes that match the API models. Update the hadrdcoded implementation of the Students component to use the service. Fix the template and use Control Flow syntax
+```
+
+- Fix the CORS error in the Api:
+
+```prompt
+In the api Program.cs add a CORS rule to allow all request form all domains on all methods
+```
+
+- Fix empty student page
+
+```
+there are no students displayed on the page. data is returned. Angular Dev Tools show the following state as in the screenshot
+```
+
+```
+still no output so please add terminal logging to the students component so you can examine it and fix the error
+```
+
+- Create docs using a saved prompt

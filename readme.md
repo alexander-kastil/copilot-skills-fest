@@ -29,7 +29,6 @@ The Fitness App is a comprehensive solution for managing students and their exer
 
 - Angular 19
 - .NET 9
-- SQLite
 
 ### Project Structure
 

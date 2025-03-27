@@ -1,6 +1,50 @@
-# FitenssUi
+# Fitness UI
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+## Service Overview
+
+The Fitness UI is an Angular 19 application that serves as the frontend for the Fitness App. It provides a user interface for managing students and their exercises.
+
+### Key Features
+
+- View and manage student details.
+- Track and create exercises for students.
+- Responsive design for seamless user experience.
+
+### Architecture Diagram
+
+```
+[Browser] <--> [Fitness UI] <--> [Fitness API]
+```
+
+### Tech Stack
+
+- Angular 19
+- SCSS for styling
+- Angular Router for navigation
+
+## Development Guide
+
+### Prerequisites
+
+- Node.js 20.12.2 or higher
+- Angular CLI
+
+### Build and Execution Instructions
+
+1. Clone the repository.
+2. Navigate to the `fitenss-ui` directory.
+3. Run `npm install` to install dependencies.
+4. Run `ng serve` to start the development server.
+
+### Dependencies
+
+- Fitness API (backend service).
+
+## Configuration Reference
+
+| Config Key | Description          | Required | Default                      | Example                      |
+| ---------- | -------------------- | -------- | ---------------------------- | ---------------------------- |
+| `apiUrl`   | Backend API base URL | Yes      | `http://localhost:5000/api/` | `http://localhost:5000/api/` |
 
 ## Development server
 

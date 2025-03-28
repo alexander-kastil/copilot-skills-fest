@@ -1,4 +1,4 @@
-# Tasklist
+# Promptlist
 
 - [ ] **Task 1**: Project Setup including a devcontainer.json
 - [ ] **Task 2**: Implement the Web Api

@@ -19,7 +19,8 @@ public class ExerciseController : ControllerBase
     [HttpGet("Students")]
     public async Task<ActionResult<IEnumerable<Student>>> GetStudents()
     {
-        return await _dbContext.Students.ToListAsync();
+        var result = await _dbContext.Students.ToListAsync();
+        return result;
     }
 
     [HttpGet("Students/{id}")]

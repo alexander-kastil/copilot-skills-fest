@@ -1,6 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, tap } from 'rxjs';
 import { Student } from '../models/student.model';
 import { environment } from '../../environments/environment';
 
@@ -12,7 +12,7 @@ export class StudentsService {
     private apiUrl = environment.apiUrl;
 
     getStudents(): Observable<Student[]> {
-        return this.http.get<Student[]>(`${this.apiUrl}Students`);
+        return this.http.get<Student[]>(`${this.apiUrl}Students`).pipe(tap(students => { console.log(students) }));
     }
 
     getStudent(id: number): Observable<Student> {

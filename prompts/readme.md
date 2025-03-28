@@ -7,9 +7,9 @@
 
 > Note: Task 5-8 are not included in this repository. They are [GitHub Issues](https://github.com/alexander-kastil/copilot-skills-fest/issues) waiting to be addressed.
 
-The Tasks were executed by the GutHub Copilot Agent mostly using Claude Sonnet 3.7
+The Tasks were executed by the GutHub Copilot Agent mostly using Claude Sonnet 3.7 with these [Visual Studio Code Settings](/prompts/assets/general/settings.json)
 
-![settings](./assets/general/settings.jpg)
+![settings](./assets/general/agent.jpg)
 
 # Task 1: Project Setup
 
@@ -25,9 +25,11 @@ The .NET 9.0 Web API project should be created with the dotnet new webapi -n fit
 Create the .NET 9.0 Web API project (fitness-api) and the Angular 19 App project (fitness-ui). When creating the Angular Front use the angular cli with the ng new fitenss-ui --routing --style=scss --ssr=false command. After creating the Angular project, create angular environments using 'ng g environments' and add apiUrl to both environments. The apiUrl should be set to apiUrl="http://localhost:5000/"
 ```
 
-- Add gitignore to the two projects reflecting their stack
+```prompt
+Add .gitignore to the two projects reflecting their stack
+```
 
-- Add a .github/copilot-instructions.md file:
+- Add a `.github/copilot-instructions.md` from [assets](/prompts/assets/general/) file the defines general instructions for code generation and project specific instructions for Angular and .NET:
 
 ```markdown
 # Code Instructions
@@ -43,6 +45,8 @@ We are using Angular 19. Always use functional implementation where possible
 ## .NET
 
 ```
+
+> Note: Typically you would add issues to this file, when noticing unwanted code-generation behavior.
 
 - Run and commit to the main branch.
 
@@ -103,7 +107,25 @@ Add a REST Client test-controller.http to test the different methods of the cont
 
 ## Task 3: Configure the Angular App
 
-- Add Angular Copilot instructions to project specific settings
+- Add Angular project specific Copilot settings using .vscode/settings.json. Take the content from [assets](/prompts/assets/angular/):
+
+  ```json
+  {
+      "github.copilot.chat.codeGeneration.instructions": [
+          {
+              "file": ".angular.copilot.md"
+          }
+      ],
+      "github.copilot.chat.testGeneration.instructions": [
+          {
+              "file": ".angular.tests.copilot.md"
+          }
+      ],
+      "github.copilot.chat.setupTests.enabled"   : true,
+      "github.copilot.chat.startDebugging.enabled": true,
+      "chat.commandCenter.enabled": true,
+  }
+  ```
 
 - Create the base app
 
@@ -143,10 +165,14 @@ still no output so please add terminal logging to the students component so you 
 
 ## Task 4: Add project documentation using a reusable prompt
 
-- Create docs using a saved prompt
+- Create docs using a saved prompt in `.github/prompts/*.prompt.md`
 
 ![prompt](./assets/general/docs.jpg)
 
-- Attack the prompt
+- Attach the prompt
+
+![attach](./assets/general/attach.jpg)
+
+- Use the attached prompt to create the documentation
 
 ![prompt](./assets/general/use-prompt.jpg)

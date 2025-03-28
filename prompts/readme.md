@@ -5,7 +5,7 @@
 - [ ] **Task 3**: Implement the Angular App using Vibe Coding
 - [ ] **Task 4**: Add project documentation using a reusable prompt
 
-> Note: Task 5-7 are not included in this repository. They are [GitHub Issues](https://github.com/alexander-kastil/copilot-skills-fest/issues) waiting to be addressed.
+> Note: Task 5-8 are not included in this repository. They are [GitHub Issues](https://github.com/alexander-kastil/copilot-skills-fest/issues) waiting to be addressed.
 
 The Tasks were executed by the GutHub Copilot Agent mostly using Claude Sonnet 3.7
 

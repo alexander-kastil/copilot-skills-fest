@@ -9,6 +9,7 @@ This repository a guide to Vibe Coding using GitHub Copilot for a fitness applic
 - [ ] **Task 5**: Implement tests using Vibe Coding
 - [ ] **Task 6**: Implement infra using Vibe Coding
 - [ ] **Task 7**: Add a CI/CD pipeline using Azure DevOps
+- [ ] **Task 8**: Implement & Integrate an MCP (Model Context Protocol) Service
 
 ## Project Overview
 

@@ -14,7 +14,7 @@ This repository a guide to Vibe Coding using GitHub Copilot for a fitness applic
 
 The Fitness App is a comprehensive solution for managing students and their exercise routines. It consists of a .NET 9 Web API backend and an Angular 19 frontend, providing a seamless experience for users.
 
-![app](/tasks/assets/general/app.jpg)
+![app](/prompts/assets/general/app.jpg)
 
 ### Project Purpose and Objectives
 

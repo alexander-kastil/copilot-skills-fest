@@ -3,9 +3,12 @@
 This repository a guide to Vibe Coding using GitHub Copilot for a fitness application. It contains a [prompt list](prompts/readme.md) to fulfill the [goals](goal/readme.md) of the [Microsoft Skills Fest](https://aiskillsfest.event.microsoft.com/)
 
 - [ ] **Task 1**: Project Setup including a devcontainer.json
-- [ ] **Task 2**: Implement the Web Api
-- [ ] **Task 3**: Implement the Angular App
-- [ ] **Task 4**: Add project documentation
+- [ ] **Task 2**: Implement the Web Api using Vibe Coding
+- [ ] **Task 3**: Implement the Angular App using Vibe Coding
+- [ ] **Task 4**: Add project documentation using a reusable prompt
+- [ ] **Task 5**: Implement tests using Vibe Coding
+- [ ] **Task 6**: Implement infra using Vibe Coding
+- [ ] **Task 7**: Add a CI/CD pipeline using Azure DevOps
 
 ## Project Overview
 

@@ -1,9 +1,11 @@
 # Prompt list
 
 - [ ] **Task 1**: Project Setup including a devcontainer.json
-- [ ] **Task 2**: Implement the Web Api
-- [ ] **Task 3**: Implement the Angular App
-- [ ] **Task 4**: Add project documentation
+- [ ] **Task 2**: Implement the Web Api using Vibe Coding
+- [ ] **Task 3**: Implement the Angular App using Vibe Coding
+- [ ] **Task 4**: Add project documentation using a reusable prompt
+
+> Note: Task 5-7 are not included in this repository. They are [GitHub Issues](https://github.com/alexander-kastil/copilot-skills-fest/issues) waiting to be addressed.
 
 The Tasks were executed by the GutHub Copilot Agent mostly using Claude Sonnet 3.7
 
@@ -139,12 +141,12 @@ there are no students displayed on the page. data is returned. Angular Dev Tools
 still no output so please add terminal logging to the students component so you can examine it and fix the error
 ```
 
-## Task 4: Add project documentation
+## Task 4: Add project documentation using a reusable prompt
 
 - Create docs using a saved prompt
 
-![prompt](/tasks/assets/general/docs.jpg)
+![prompt](./assets/general/docs.jpg)
 
-- Use prompt
+- Attack the prompt
 
-![prompt](/tasks/assets/general/use-prompt.jpg)
+![prompt](./assets/general/use-prompt.jpg)

@@ -1,6 +1,6 @@
 # Build applications with GitHub Copilot agent mode
 
-This repository a guide to Vibe Coding using GitHub Copilot for a fitness application. It contains a [task list](tasks/readme.md) to fulfill the [goals](goal/readme.md) of the [Microsoft Skills Fest](https://aiskillsfest.event.microsoft.com/)
+This repository a guide to Vibe Coding using GitHub Copilot for a fitness application. It contains a [prompt list](tasks/readme.md) to fulfill the [goals](goal/readme.md) of the [Microsoft Skills Fest](https://aiskillsfest.event.microsoft.com/)
 
 - [ ] **Task 1**: Project Setup including a devcontainer.json
 - [ ] **Task 2**: Implement the Web Api

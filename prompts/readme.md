@@ -9,7 +9,7 @@
 - [ ] **Task 7**: Implement Bicep in infra folder using Vibe Coding
 - [ ] **Task 8**: Add a CI/CD pipeline using Azure DevOps
 
-> Note: Task 5-8 are not included in this repository. They are [GitHub Issues](https://github.com/alexander-kastil/copilot-skills-fest/issues) waiting to be addressed.
+> Note: Task 6-8 are not included in this repository. They are [GitHub Issues](https://github.com/alexander-kastil/copilot-skills-fest/issues) waiting to be addressed.
 
 The Tasks were executed by the GutHub Copilot Agent mostly using Claude Sonnet 3.7 with these [Visual Studio Code Settings](/prompts/assets/general/settings.json)
 
@@ -241,5 +241,5 @@ This task enhances the development workflow by adding Playwright MCP capabilitie
 - Check if the tools are working correctly:
 
   ```prompt
-  Navigate to http://localhost:4200/ and then to "View Students" and the create a list of students.
+  Navigate to http://localhost:4200/ and describe the result. Do nothing else.
   ```

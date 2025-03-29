@@ -4,12 +4,16 @@
 - [ ] **Task 2**: Implement the Web Api using Vibe Coding
 - [ ] **Task 3**: Implement the Angular App using Vibe Coding
 - [ ] **Task 4**: Add project documentation using a reusable prompt
+- [ ] **Task 5**: Implement & Integrate a Playwright MCP (Model Context Protocol) Service
+- [ ] **Task 6**: Implement tests using Vibe Coding
+- [ ] **Task 7**: Implement Bicep in infra folder using Vibe Coding
+- [ ] **Task 8**: Add a CI/CD pipeline using Azure DevOps
 
 > Note: Task 5-8 are not included in this repository. They are [GitHub Issues](https://github.com/alexander-kastil/copilot-skills-fest/issues) waiting to be addressed.
 
 The Tasks were executed by the GutHub Copilot Agent mostly using Claude Sonnet 3.7 with these [Visual Studio Code Settings](/prompts/assets/general/settings.json)
 
-![settings](./assets/general/agent.jpg)
+![settings](./images/agent.jpg)
 
 # Task 1: Project Setup
 
@@ -167,12 +171,40 @@ still no output so please add terminal logging to the students component so you 
 
 - Create docs using a saved prompt in `.github/prompts/*.prompt.md`
 
-![prompt](./assets/general/docs.jpg)
+![prompt](./images/docs.jpg)
 
 - Attach the prompt
 
-![attach](./assets/general/attach.jpg)
+![attach](./images/attach.jpg)
 
 - Use the attached prompt to create the documentation
 
-![prompt](./assets/general/use-prompt.jpg)
+![prompt](./images/use-prompt.jpg)
+
+## Task 5: Implement & Integrate a Playwright MCP (Model Context Protocol) Service
+
+In this task we will implement a Playwright MCP (Model Context Protocol) Service to allow the agent to interact with the application using the browser.
+
+- Add Playwright to `.vscode/mcp.json` in the fitness-ui project. This will allow the agent to interact with the application using the browser. We could also install Playwright in the root project.
+
+```json
+{
+    "servers": {
+        "playwright": {
+            "command": "npx",
+            "args": [
+                "@playwright/mcp@latest",
+                "--vision"
+            ]
+        }
+    }
+}
+```
+
+- Restart the tools using the command palette. This will install Playwright and start the MCP server.
+
+![restart-tools](./images/restart-tools.jpg)
+
+- Check if the tools are available by clicking on `Select tools` in your agents control center
+
+![check-tools](./images/check-tools.jpg)

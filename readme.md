@@ -6,10 +6,10 @@ This repository a guide to Vibe Coding using GitHub Copilot for a fitness applic
 - [ ] **Task 2**: Implement the Web Api using Vibe Coding
 - [ ] **Task 3**: Implement the Angular App using Vibe Coding
 - [ ] **Task 4**: Add project documentation using a reusable prompt
-- [ ] **Task 5**: Implement tests using Vibe Coding
-- [ ] **Task 6**: Implement infra using Vibe Coding
-- [ ] **Task 7**: Add a CI/CD pipeline using Azure DevOps
-- [ ] **Task 8**: Implement & Integrate an MCP (Model Context Protocol) Service
+- [ ] **Task 5**: Implement & Integrate a Playwright MCP (Model Context Protocol) Service
+- [ ] **Task 6**: Implement tests using Vibe Coding
+- [ ] **Task 7**: Implement Bicep in infra folder using Vibe Coding
+- [ ] **Task 8**: Add a CI/CD pipeline using Azure DevOps
 
 ## Project Overview
 

@@ -11,11 +11,13 @@ This repository a guide to Vibe Coding using GitHub Copilot for a fitness applic
 - [ ] **Task 7**: Implement Bicep in infra folder using Vibe Coding
 - [ ] **Task 8**: Add a CI/CD pipeline using Azure DevOps
 
+> Note: Task 6-8 are not included in this repository and are not part of this session. They are [GitHub Issues](https://github.com/alexander-kastil/copilot-skills-fest/issues) waiting to be addressed.
+
 ## Project Overview
 
 The Fitness App is a comprehensive solution for managing students and their exercise routines. It consists of a .NET 9 Web API backend and an Angular 19 frontend, providing a seamless experience for users.
 
-![app](/prompts/assets/general/app.jpg)
+![app](/prompts/images/app.jpg)
 
 ### Project Purpose and Objectives
 

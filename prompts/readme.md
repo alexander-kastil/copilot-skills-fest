@@ -237,3 +237,9 @@ This task enhances the development workflow by adding Playwright MCP capabilitie
 - Check if the tools are available by clicking on `Select tools` in your agents control center
 
   ![check-tools](./images/check-tools.jpg)
+
+- Check if the tools are working correctly:
+
+  ```prompt
+  Navigate to http://localhost:4200/ and then to "View Students" and the create a list of students.
+  ```

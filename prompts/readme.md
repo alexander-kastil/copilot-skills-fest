@@ -1,13 +1,13 @@
 # Prompt list
 
-- [ ] **Task 1**: Project Setup including a devcontainer.json
-- [ ] **Task 2**: Implement the Web Api using Vibe Coding
-- [ ] **Task 3**: Implement the Angular App using Vibe Coding
-- [ ] **Task 4**: Add project documentation using a reusable prompt
-- [ ] **Task 5**: Implement & Integrate a Playwright MCP (Model Context Protocol) Service
-- [ ] **Task 6**: Implement tests using Vibe Coding
-- [ ] **Task 7**: Implement Bicep in infra folder using Vibe Coding
-- [ ] **Task 8**: Add a CI/CD pipeline using Azure DevOps
+- [ ] **Task 1**: [Project Setup including a devcontainer.json](#task-1-project-setup)
+- [ ] **Task 2**: [Implement the Web Api using Vibe Coding](#task-2-configure-the-web-api)
+- [ ] **Task 3**: [Implement the Angular App using Vibe Coding](#task-3-configure-the-angular-app)
+- [ ] **Task 4**: [Add project documentation using a reusable prompt](#task-4-add-project-documentation-using-a-reusable-prompt)
+- [ ] **Task 5**: [Implement & Integrate a Playwright MCP (Model Context Protocol) Service](#task-5-implement--integrate-a-playwright-mcp-model-context-protocol-service)
+- [ ] **Task 6**: [Implement tests using Vibe Coding](#task-6-implement-tests-using-vibe-coding)
+- [ ] **Task 7**: [Implement Bicep in infra folder using Vibe Coding](#task-7-implement-bicep-in-infra-folder-using-vibe-coding)
+- [ ] **Task 8**: [Add a CI/CD pipeline using Azure DevOps](#task-8-add-a-cicd-pipeline-using-azure-devops)
 
 > Note: Task 6-8 are not included in this repository. They are [GitHub Issues](https://github.com/alexander-kastil/copilot-skills-fest/issues) waiting to be addressed.
 
